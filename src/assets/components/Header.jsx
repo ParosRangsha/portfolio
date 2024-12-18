@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div className="header bg-[#00000010]">
+    <div className="header bg-[#ddd] sticky w-full top-0 left-0 z-[999]">
       <div className="flex max-w-container mx-auto items-center py-[10px]">
         <div className="logo w-2/6">
           <h1 className='text-[32px] text-[#55f] font-[700]'>MARY</h1>
